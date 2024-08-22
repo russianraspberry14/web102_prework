@@ -8,7 +8,15 @@ body {
 #tentacles {
     width: 50px;
 }
-
+.stats-container{
+    display: flexbox;
+    align-items: center;
+    
+}
+.stats-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
 .header {
     display: flex;
     background-color: lightblue;
